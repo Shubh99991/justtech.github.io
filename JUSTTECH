@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JUST TECH : stay alert for tech.</title>
+<style>
+    /* Basic Styles */
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    height: 175px;
+
+}
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.brand img{
+    width: 175px;
+    padding: 0 10px;
+
+}
+.brand img{
+    width: 180px;
+    align-items: baseline;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.IMG img{
+    width: 150px;
+    padding: 0 10px;
+
+}
+.IMG img{
+    width: 150px;
+    align-items: baseline;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+
+/* Header */
+.header {
+  background-color: #f1f1f1;
+  text-align: center;
+  padding: 30px 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+/* Navigation */
+.nav {
+  background-color: #ddd;
+  padding: 10px;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Main Content */
+.main {
+  padding-bottom: 30px;
+}
+
+.featured-post {
+  margin-bottom: 30px;
+}
+
+.blog-post {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.blog-post img {
+  width: 100%;
+  display: flex;
+  margin-bottom: 150px;
+}
+
+.blog-post h3 {
+  font-size: 1.5em;
+  margin
+} 
+form {
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+h1{
+  text-align: center;
+  padding: auto;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; /* Ensures padding doesn't affect width */
+  margin-bottom: 15px;
+}
+
+textarea {
+  height: 100px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #45a049;
+  border-color: #000;
+} 
+  </style>
+</head>
+<body>
+  <nav class="nav">
+    <div class="container">
+      <ul>
+        <li class="brand"><img src="JUST.png" alt="LYRIC"> </li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Feedback</a></li>
+      </ul>
+    </div>
+  </nav>
+  <main class="main">
+    <div class="container">
+      <section class="featured-post">
+        <h2><li>What is ai ?</li></h2>
+        <article class="blog-post">
+          <h3><a href="#">AI, or artificial intelligence, is a branch of computer science that deals with the creation
+             of intelligent agents, which are systems that can reason, learn, and act autonomously. 
+             AI research has been highly successful in developing effective techniques for solving a wide range of problems,
+              from game playing to medical diagnosis.</a></h3>
+          <p></p>
+          <a href="#" class="read-more">Read More</a>
+          <h2><li>Key points of Ai.</li></h2>
+        <article class="blog-post">
+          <h3><a href="#">Here's a breakdown of the key points about AI:
+             <li>Goal: To create machines capable of performing tasks that typically require human intelligence.</li>
+            <li>Capabilities: AI systems can learn from data, identify patterns, make predictions, and respond to their environment.</li>
+            <li>Types: There are different types of AI, ranging from basic reactive machines to those with more advanced capabilities like theory of mind.</li>
+            <li>Applications: AI is used in various fields, including healthcare, finance, transportation, and entertainment.</li></a></h3>
+            <h3>Now we are trying to learn some Ai tools which are used in present time.</h3>
+        </article>
+      </section>
+
+
+
+  <main class="main">
+    <div class="container">
+      <section class="featured-post">
+        <h2><li>The Ai Tools You Need To Know.</li></h2>
+        <article class="blog-post">
+          <a href="#">
+            <h2><b>So there are so many AI tools which are used in present time.
+              Here is list of AI tools which are used in design,content creation,for coding
+              reserach,marketing,copywriting etc...
+            </b></h2>
+            <li class="brand"><img src="ai tools.jpg" alt="Ai Tools"> </li>
+          </a>
+          <h3><a href="#">Now we are try to know some of these AI tools,Specially
+            AI tools which are used in design,content creation,for coding,copywriting and writing.</a></h3>
+          <p></p>
+          <a href="#" class="read-more">Read More</a>
+        </article>
+      </section>
+
+      <section class="recent-posts">
+        <h2></h2>
+        <article class="blog-post">
+          <a href="#">
+            <li class="IMG"><img src="CODING AI.jpg" alt="Code Ai tools"> </li>
+          </a>
+          <h3><a href="#">CODE AI TOOLS.</a></h3>
+          <p><b>AI code tools can be broadly categorized into two main areas: code generation and code analysis.
+            Code Generation Tools: These tools use AI to help programmers write code faster and more efficiently. 
+            <h2>Here are some examples:</h2>
+            <li>GitHub Copilot: Integrates with popular IDEs and suggests code completions, functions, and even entire lines of code based on the context.</li>
+            <li>OpenAI Codex: A powerful AI that can generate code in multiple languages based on natural language descriptions.</li>
+            <li>ZZZCode AI: Free online tool with a simple interface for generating code snippets in various languages.</li>
+            <h2>Code Analysis Tools:  These tools use AI to analyze existing code and identify potential issues:</h2>
+            <li>DeepCode: Cloud-based tool that scans code for bugs, vulnerabilities, and security risks.</li>
+            <li>Codeium: Offers AI-powered code completion, search, and chat functionalities to improve programmer productivity.</li>
+            <li>Codiga: Static analysis tool that uses AI to ensure code quality, security, and efficiency.</li></b></p>
+        </article>
+        <article class="blog-post">
+          <a href="#">
+            <li class="IMG"><img src="D&C ai tools.jpg" alt="Code Ai tools"> </li>
+          </a>
+          <h3><a href="#">Graphic design and Content creating AI Tools.</a></h3>
+          <p><b><h2>Graphic design and content creation are two areas that have been greatly impacted by the rise of artificial intelligence (AI) tools.
+            These tools can help automate tasks, generate ideas, and streamline workflows for designers and content creators alike.</h2>
+            <h3>Here are some of the popular AI tools for graphic design and content creation:</h3>
+            
+            <li>Canva:Canva is a well-known online design platform that has incorporated several AI-powered features in recent years.
+            Their "Magic Design" tool uses AI to suggest layouts and designs based on text prompts and uploaded images.</li>
+            <li>Adobe Creative Suite:Adobe Sensei is the AI built into the Adobe Creative Suite, including Photoshop, Illustrator, and InDesign.
+            Sensei automates tasks like object selection, background removal, and color correction, freeing up designers to focus on creative aspects.</li>
+            <li>Designs.ai:This platform uses AI to help users create logos, videos, social media graphics, and more. It offers a variety of 
+            templates and tools that can be customized with the help of AI.</li>
+            <li>Jasper.ai (formerly Jarvis.ai):While not specifically a design tool, Jasper is a powerful AI writing tool that can be used to create content for marketing materials,
+            social media posts, and even website copy. This can be a valuable asset for graphic designers who need to create compelling visuals with strong messaging.</li>
+            
+            <h3>Here are some additional benefits of using AI tools for graphic design and content creation:</h3>
+            
+            <li>Increased Efficiency: AI can automate repetitive tasks, freeing up designers and content creators to focus on more creative endeavors.</li>
+            <li>Improved Quality: AI can help to ensure consistency and quality in design and content creation.</li>
+            <li>Reduced Costs: AI tools can help to reduce the time and resources needed to create high-quality content.</li>
+            <li>Sparking Creativity: AI can help to generate new ideas and overcome creative block.</li>
+            <p>However, it is important to remember that AI tools are not a replacement for human creativity.
+            They are best used as assistants to help designers and content creators work more efficiently and effectively.</p></b>
+          </p>
+        </article>
+        <article class="blog-post">
+          <a href="#">
+            <li class="IMG"><img src="W&CWai tools.jpg" alt="Code Ai tools"> </li>
+          </a>
+          <h3><a href="#">Writing and Copy writing AI tools. </a></h3>
+          <p><b><h2>There are many AI writing and copywriting tools available, both free and paid. 
+            Here's a breakdown to help you choose the right one:</h2>
+            <h3>Popular Options:</h3>
+            <li>Jasper.ai (formerly Jarvis.ai): A powerful tool that uses AI to generate various content formats, including blog posts, social media captions, website copy, and even scripts.
+            It excels at long-form content and integrates with other marketing tools.</li>
+            <li>Copy.ai: Offers a user-friendly interface with a variety of templates for specific content types like ad copy, product descriptions, and email marketing.
+            It's a good option for beginners or those needing quick content generation.</li>
+            <li>Anyword: Focuses on data-driven copywriting, allowing you to A/B test different variations and optimize your content for conversions.
+              It's a good choice for marketers who prioritize data-backed results.</li>
+            <h3>Additional Options:</h3>
+            <li>QuillBot: While not strictly a copywriting tool, QuillBot is an AI writing assistant that helps paraphrase and rephrase existing content.
+            It's useful for overcoming writer's block or injecting fresh perspectives into your writing.</li>
+            <li>SocialBee: A social media scheduling tool with an AI post generator.
+            Input some details and let the AI create engaging social media content for various platforms.</li>
+            <h2>Choosing the Right Tool:</h2>
+            
+            <h3>Consider these factors when picking an AI writing/copywriting tool:</h3>
+            
+            <li>Needs: What type of content do you need help with? Blog posts, ad copy, social media captions.</li>
+            <li>Features: Does the tool offer templates, specific content type generation, or A/B testing capabilities.</li>
+            <li>Budget: Free options exist, but paid plans often offer more features and capabilities.</li>
+            <li>Ease of Use: How user-friendly is the interface? Do you need a complex tool or something simple and quick</li>
+            <p>Remember, AI writing tools are best used as assistants, not replacements for human creativity.
+            They can help overcome writer's block, generate ideas, and save you time, but always edit and refine the output to ensure 
+            it matches your brand voice and message..</p>
+            </b></p>
+        </article>
+      </section>
+    </div>
+  </main>
+  <main>
+    <h2>About Us</h2>
+    <p><b>JUST TECH</b>is the Blog website which provide information about the recent technolongy.
+    As above in this recent blog we are tryning know abot AI tools.
+  and in upcoming blog we are trying to know about nwe technolongy called <b>Quantum Computers.</b></p>
+  </main>
+  <br><br>
+  <div class="container">
+    <section class="featured-post">
+      <h1>Feedback Form</h1>
+      <form action="process.php" method="post"> <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+      <input type="submit" value="Submit">
+  
+        </section>
+      </article>
+    </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy;<b>JUST TECH</b></p>
+      <p><b>Thank you.visit again!!!</b></p>
+    </div>
+  </footer>
+</body>
+</html>
